@@ -1,3 +1,4 @@
 [alias]
   ac = !git add -A && git commit -m
   publish = !git push origin -u "$(git symbolic-ref --short HEAD)"
+  squash-template !git rebase -i --root
