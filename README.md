@@ -13,3 +13,7 @@ Various useful aliases for using the git cli
   $ git publish
   -> Branch 'my-new-branch' set up to track remote branch 'my-new-branch' from 'origin'. 
   ```
+- `git squash-template`
+  - Rebases the branch (`main` should be checked out) back to the root commit
+  - Allows you to `pick` the first commit and `squash` the rest into it
+  - Useful for when a using a repository as a template, pushing cleanup commits to it (like readme, naming, config, etc), and then resetting the repository to start with those changes as the initial commit
