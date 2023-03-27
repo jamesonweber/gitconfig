@@ -1,6 +1,6 @@
 [alias]
   ac = !git add -A && git commit -m
-  del-file-path = !git log --diff-filter=D --summary | grep delete | grep 
   del-file-log = !git log --oneline --follow -- 
+  del-file-path = !git log --diff-filter=D --summary | grep delete | grep 
   publish = !git push origin -u "$(git symbolic-ref --short HEAD)"
   squash-template = !git rebase -i --root
