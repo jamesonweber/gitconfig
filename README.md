@@ -27,3 +27,7 @@ Various useful aliases for using the git cli
   - Rebases the branch (`main` should be checked out) back to the root commit
   - Allows you to `pick` the first commit and `squash` the rest into it
   - Useful for when a using a repository as a template, pushing cleanup commits to it (like readme, naming, config, etc), and then resetting the repository to start with those changes as the initial commit
+ 
+- `git clean-all`
+  - Removes all files and folders in .gitignore
+  - Useful for removing all build artifacts
