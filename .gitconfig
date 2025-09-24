@@ -4,3 +4,4 @@
   del-file-path = !git log --diff-filter=D --summary | grep delete | grep 
   publish = !git push origin -u "$(git symbolic-ref --short HEAD)"
   squash-template = !git rebase -i --root
+  clean-all = !git clean -dfx
